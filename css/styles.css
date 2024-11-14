@@ -1,0 +1,68 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: rgba(255, 255, 255, 1);
+	color: #2E2F42;
+	font-size: 16px;
+    line-height: 1.5;
+}
+
+button {
+	padding: 0;
+	background-color: #4D5AE5;
+	color: rgba(255, 255, 255, 1);
+	cursor: pointer;
+}
+.container {
+	max-width: 1440px;
+	padding: 0px;
+	margin: 0 auto;
+}
+
+header {
+
+}
+.blue {
+	color: #4D5AE5;
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+  }
+  
+  .black {
+	color: #2E2F42;
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+  }
+
+.main {
+	background-color: #2E2F42;
+	color: rgba(255, 255, 255, 1);
+}
+
+.team {
+	background-color: #F4F4FD;
+	color: rgba(46, 47, 66, 1);
+}
+.portfolio {
+	list-style-type: none;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, p {
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+.footer {
+	background-color: #2E2F42;
+	color: rgba(255, 255, 255, 1);
+}
