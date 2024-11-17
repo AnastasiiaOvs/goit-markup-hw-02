@@ -20,9 +20,24 @@ body {
     font-size: 16px;
     line-height: 1.5;
 	letter-spacing: 0.02em;
+    width: 1440px;
 }
+
+.header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: var(--color-cornflover);
+  }
+
 /* Логотип */
 .logo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+.logo1 {
     font-family: "Raleway", sans-serif; 
     font-weight: 700; 
     font-size: 18px; 
@@ -30,21 +45,41 @@ body {
     letter-spacing: 0.03em; 
     text-transform: uppercase; 
     color: var(--color-iris); 
+    -webkit-text-stroke: 1px black;
 }
-.logo-text {
-    color: var(--color-navyblue); 
+.logo2 {
+    color: var(--color-navyblue);
+    font-weight: 700; 
+    text-transform: uppercase; 
+    font-size: 18px; 
+    -webkit-text-stroke: 1px black;
 }
+.logo3 {
+    color: var(--color-iris); 
+    font-weight: 700; 
+    text-transform: uppercase; 
+}
+
+.logo4 {
+    color: var(--color-cloud);
+    font-weight: 700; 
+    text-transform: uppercase; 
+}
+
 .address {
 	font-style: normal;
 }
 
 /* Навігаційне меню */
+.nav_menu {
+    display: flex;
+    list-style: none;
+}
+
 ul {
     list-style-type: none;
     display: flex;
     gap: 15px;
-    padding: 0;
-    margin: 0;
 }
 
 .nav-item {
@@ -121,6 +156,7 @@ h3 {
 	text-align: center;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
+    flex-wrap: wrap;
 }
 .apps {
 	font-weight: 500;
@@ -137,4 +173,9 @@ a {
     color: var(--color-cloud);
     font-size: 16px;
     line-height: 1.5;
+}
+
+.final_text {
+    color: var(--color-cloud);
+    
 }
