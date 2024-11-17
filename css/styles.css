@@ -1,19 +1,27 @@
 html {
-
+ --color-white: #FFFFFF;
+ --color-iris: #4D5AE5;
+ --color-ocean: #404BBF;
+ --color-navyblue: #2E2F42;
+ --color-green: #31D0AA;
+ --color-slate: #434455;
+ --color-lightslate: #8E8F99;
+ --color-cornflover: #E7E9FC;
+ --color-cloud: #F4F4FD;
+ --color-navybluemodal:#2E2F42;
+--color-grey: #2E2F42;
+--color-dairy: #FCFCFC;
 }
 
 body {
     font-family: "Roboto", sans-serif;
-    background-color: rgba(255, 255, 255, 1);
-    color: #434455;
+    background-color: var(--color-white);
+    color: var(--color-slate);
     font-size: 16px;
     line-height: 1.5;
 	letter-spacing: 0.02em;
 }
-.address {
-	font-style: normal;
-}
-	/* Логотип */
+/* Логотип */
 .logo {
     font-family: "Raleway", sans-serif; 
     font-weight: 700; 
@@ -21,11 +29,13 @@ body {
     line-height: 1.17; 
     letter-spacing: 0.03em; 
     text-transform: uppercase; 
-    color: #4D5AE5; 
+    color: var(--color-iris); 
 }
-
 .logo-text {
-    color: #2E2F42; 
+    color: var(--color-navyblue); 
+}
+.address {
+	font-style: normal;
 }
 
 /* Навігаційне меню */
@@ -44,18 +54,18 @@ ul {
 .nav-link {
     font-weight: 500;
     text-decoration: none;
-    color: #434455;
+    color: var(--color-slate);
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #4D5AE5;
+    color: var(--color-iris);
 }
  
 /* Кнопка */
 button {
-    background-color: #4D5AE5;
-    color: rgba(255, 255, 255, 1);
+    background-color: var(--color-iris);
+    color: var(--color-white);
     cursor: pointer;
 	font-weight: 500;
 	line-height: 1.5;
@@ -63,28 +73,25 @@ button {
 }
 
 .button:hover {
-	color:#404BBF;
+	color: var(--color-ocean);
 }
 .button:focus {
-	color:#404bbf;
-}
-header {
-   
+	color: var(--color-ocean);
 }
 
 .main {
-    background-color: #2E2F42;
-    color: rgba(255, 255, 255, 1);
+    background-color: var(--color-navyblue);
+    color: var(--color-white);
 }
 
 .key_messages, p {
-    color: #434455;
+    color: var(--color-slate);
     line-height: 1.5;
 	letter-spacing: 0.02em;
 }
 
 h2 {
-    color: #2E2F42;
+    color: var(--color-navyblue);
     line-height: 1.11;
 	font-weight: 500;
 	font-size: 20px;
@@ -93,7 +100,7 @@ h2 {
 }
 
 h3 {
-    color: #2E2F42;
+    color: var(--color-navyblue);
     line-height: 1.2;
 }
 
@@ -126,8 +133,8 @@ a {
 }
 
 .footer {
-    background-color: #2E2F42;
-    color: #F4F4FD;
+    background-color: var(--color-navyblue);
+    color: var(--color-cloud);
     font-size: 16px;
     line-height: 1.5;
 }
