@@ -16,51 +16,43 @@ html {
 body {
     font-family: "Roboto", sans-serif;
     background-color: var(--color-white);
-    color: var(--color-slate);
+    color: var(--color-navyblue);
     font-size: 16px;
     line-height: 1.5;
 	letter-spacing: 0.02em;
-    width: 1440px;
+    font-weight: 500;
 }
 
 .header {
     display: flex;
     align-items: center; 
     justify-content: space-between; 
-    background-color: var(--color-cornflover);
+    
   }
 
 /* Логотип */
 .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
     text-decoration: none;
     display: flex;
     align-items: center;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-iris);
   }
 
 .logo1 {
-    font-family: "Raleway", sans-serif; 
-    font-weight: 700; 
-    font-size: 18px; 
-    line-height: 1.17; 
-    letter-spacing: 0.03em; 
-    text-transform: uppercase; 
-    color: var(--color-iris); 
-    -webkit-text-stroke: 1px black;
-}
-.logo2 {
     color: var(--color-navyblue);
     font-weight: 700; 
     text-transform: uppercase; 
     font-size: 18px; 
     -webkit-text-stroke: 1px black;
 }
-.logo3 {
-    color: var(--color-iris); 
-    font-weight: 700; 
-    text-transform: uppercase; 
-}
 
-.logo4 {
+.logo2 {
     color: var(--color-cloud);
     font-weight: 700; 
     text-transform: uppercase; 
@@ -70,10 +62,26 @@ body {
 	font-style: normal;
 }
 
+.contact {
+    color: var(--color-slate);
+    font-weight: 100; 
+}
+
+.contact:hover,
+.contact:active {
+    color: var(--color-ocean);
+
+}
+
 /* Навігаційне меню */
 .nav_menu {
     display: flex;
     list-style: none;
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--color-ocean);
 }
 
 ul {
@@ -84,6 +92,7 @@ ul {
 
 .nav-item {
     list-style: none;
+    color: var(--color-navyblue);
 }
 
 .nav-link {
@@ -92,11 +101,7 @@ ul {
     color: var(--color-slate);
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    color: var(--color-iris);
-}
- 
+
 /* Кнопка */
 button {
     background-color: var(--color-iris);
@@ -105,17 +110,25 @@ button {
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
+    display: flex;
+    text-align: center;
 }
 
-.button:hover {
-	color: var(--color-ocean);
-}
+.button:hover,
 .button:focus {
 	color: var(--color-ocean);
 }
 
 .main {
     background-color: var(--color-navyblue);
+    color: var(--color-white);
+}
+
+.main_text {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: var(--color-white);
 }
 
@@ -134,20 +147,40 @@ h2 {
 	letter-spacing: 0.02em;
 }
 
-h3 {
-    color: var(--color-navyblue);
+.messages_list {
+    font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-navyblue);
 }
 
 .team {
-    background-color: #F4F4FD;
-    color: rgba(46, 47, 66, 1);
+    background-color: var(--color-cloud);
+    color: var(--color-navyblue);
 }
 .our_team {
 	font-size: 36px;
 	text-align: center;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
+    line-height: 1.11;
+
+}
+
+.photo {
+    background-color: var(--color-white);
+}
+
+.person {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.profession {
+    font-size: 16px;
 }
 
 .portfolio {
