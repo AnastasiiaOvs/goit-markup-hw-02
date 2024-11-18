@@ -44,9 +44,9 @@ body {
     color: var(--color-navyblue);
   }
 
-.address {
-	font-style: normal;
-}
+  span.studio {
+color: var(--color-cloud);
+  }
 
 .contact {
     color: var(--color-slate);
@@ -60,9 +60,6 @@ body {
 }
 
 /* Навігаційне меню */
-.nav_menu {
-    list-style: none;
-}
 
 .logo:hover,
 .logo:focus {
@@ -98,7 +95,7 @@ button {
 
 .button:hover,
 .button:focus {
-	color: var(--color-ocean);
+	background-color: var(--color-ocean);
 }
 
 .main {
@@ -168,16 +165,27 @@ h2 {
 .portfolio {
     list-style-type: none;
 	font-size: 36px;
-	text-align: center;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
     flex-wrap: wrap;
 }
+
+.portfolio_name {
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--color-grey);
+}
+
 .apps {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
+}
+
+.apps_name {
+    font-size: 16px;
+
 }
 a {
     text-decoration: none;
