@@ -8,9 +8,8 @@ html {
  --color-lightslate: #8E8F99;
  --color-cornflover: #E7E9FC;
  --color-cloud: #F4F4FD;
- --color-navybluemodal:#2E2F42;
---color-grey: #2E2F42;
---color-dairy: #FCFCFC;
+ --color-grey: #2E2F42;
+ --color-dairy: #FCFCFC;
 }
 
 body {
@@ -48,15 +47,19 @@ body {
 color: var(--color-cloud);
   }
 
+  /* Меню навігації */
 .contact {
     color: var(--color-slate);
     font-weight: 100; 
 }
 
 .contact:hover,
-.contact:active {
+.contact:focus {
     color: var(--color-ocean);
-
+}
+/* Адреса і телефон */
+.address {
+    font-style: normal;
 }
 
 /* Навігаційне меню */
@@ -73,6 +76,7 @@ ul {
 .nav-item {
     list-style: none;
     color: var(--color-navyblue);
+    font-weight: 500;
 }
 
 .nav-link {
@@ -174,7 +178,7 @@ h2 {
 .portfolio_name {
     font-size: 36px;
     line-height: 1.11;
-    color: var(--color-navyblue);
+    color: var(--color-grey);
 }
 
 .apps {
