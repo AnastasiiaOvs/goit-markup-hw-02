@@ -168,12 +168,13 @@ h2 {
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .portfolio_name {
     font-size: 36px;
     line-height: 1.11;
-    color: var(--color-grey);
+    color: var(--color-navyblue);
 }
 
 .apps {
