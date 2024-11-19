@@ -66,12 +66,12 @@ color: var(--color-cloud);
     color: var(--color-ocean);
 }
 
-.contact1 {
+.contact_ {
 color: var(--color-slate);
 }
 
-.contact1:hover,
-.contact1:focus {
+.contact_:hover,
+.contact_:focus {
     color: var(--color-ocean);
 }
 
