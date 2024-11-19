@@ -61,13 +61,13 @@ color: var(--color-cloud);
     font-weight: 500; 
 }
 
-.contact:hover,
-.contact:focus {
-    color: var(--color-ocean);
-}
-
 .contact1 {
 color: var(--color-slate);
+}
+
+.contact1:hover,
+.contact1:focus {
+    color: var(--color-ocean);
 }
 
 /* Адреса і телефон */
