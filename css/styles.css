@@ -57,7 +57,7 @@ color: var(--color-cloud);
 }
 
 .contact {
-    color: var(--color-slate);
+    color: var(--color-navyblue);
     font-weight: 500; 
 }
 
@@ -65,6 +65,11 @@ color: var(--color-cloud);
 .contact:focus {
     color: var(--color-ocean);
 }
+
+.contact1 {
+color: var(--color-slate);
+}
+
 /* Адреса і телефон */
 .address {
     font-style: normal;
